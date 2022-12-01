@@ -19,3 +19,8 @@ Para comprobar los commits que hemos hecho, podemos usar "git log --oneline -all
 Para hacer checkout y movernos por los commits, usamos "git checkout <hash>" (hash es el codigo que ha salido en la lista que identifica a cada commit).
 En el commit en el que añadimos el archivo tenemos una linea, el segundo dos lineas y el ultimo, tres. Para volver podemos hacer "git checkout master".
 
+## Parte C
+  
+  1. Directorio de trabajo: Es el sitio o la carpeta donde almacenamos los contenidos del repositorio.
+  2. Area de preparacion: Es como si fuese un pre-repositorio. Es el espacio temporal que se crea al añadir archivos u otras cosas antes de hacer commit.
+  3. Repositorio Local: Es el repositorio que nosotros tenemos guardado localmente en nuestro disco duro. A diferencia del repositorio remoto este solo puede acceder si tenemos accesso local a estos archivos a diferencia de un repositorio publico remoto (como alguno subido a GitHub).
